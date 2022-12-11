@@ -66,12 +66,21 @@ body {
     background-color: #009933;
 }
 
+.github{
+    background-color: rgb(40, 36, 58);
+    color: white;
+}
+
+.github:hover{
+    background-color: rgb(0, 0, 0);
+}
+
 .spigot{
-    background-color: #ee8b1b;
+    background-color: #da7d13;
 }
 
 .spigot:hover {
-    background-color: #bc6404;
+    background-color: #be6200;
 }
 
 .about-section {
