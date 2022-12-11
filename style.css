@@ -73,12 +73,6 @@ body {
     background-color: #bc6404;
 }
 
-img{
-    width: 300px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
 .about-section {
     padding: 20px;
     padding-bottom: auto;
@@ -125,4 +119,10 @@ img{
     padding-bottom: 20px;
     text-align: center;
     padding: 0;
+}
+
+img{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 5px;
 }
