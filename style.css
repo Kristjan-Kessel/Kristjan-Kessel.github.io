@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.item h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.item p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.item a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+
+.download{
+    background-color: #00cc66;
+}
+
+.download:hover {
+    background-color: #009933;
+}
+
+.spigot{
+    background-color: #ee8b1b;
+}
+
+.spigot:hover {
+    background-color: #bc6404;
+}
+
+img{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 5px;
+}
