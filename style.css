@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: lightgray;
+    margin: 0;
 }
 
 .header {
@@ -12,7 +13,7 @@ body {
 }
 
 .header h1 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .container {
@@ -37,11 +38,11 @@ body {
 
 .item h3 {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .item p {
-    font-size: 18px;
+    font-size: 1.25rem;
     line-height: 1.5;
 }
 
@@ -76,4 +77,53 @@ img{
     width: 300px;
     text-align: center;
     margin-bottom: 5px;
+}
+
+.about-section {
+    padding: 20px;
+    padding-bottom: auto;
+    background-color: #c9c9c9;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: #c9c9c9;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666;
+}
+
+.contact-section .contact-info p{
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
