@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: rgb(189, 189, 189);
     margin: 0;
-    margin-left: 20%;
+    margin-left: 20rem;
 }
 
 html {
@@ -12,9 +12,9 @@ html {
   
 
 aside{
-    width: 15%;
+    width: 17rem;
     height: 100%;
-    margin-left: -20%;
+    margin-left: -20rem;
     float: left;
     overflow: hidden;
     background-color: rgb(46, 46, 46);
@@ -22,6 +22,11 @@ aside{
     overflow-y: hidden;
     position: fixed;
 }
+
+aside h1{
+    font-size: 1.75rem;
+}
+
 
 nav ul{
     list-style: none;
@@ -55,36 +60,24 @@ nav ul li a{
     text-align: left;
 }
 
-.contact-section p {
+.contact-section p{
     font-size: 1em;
     line-height: 1.5;
-}
-
-.contact-section p{
     font-weight: bold;
     padding-bottom: 20px;
     text-align: left;
     padding: 0;
 }
 
-.h1 {
+h1 {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 0%;
 }
 
 .about-section {
-    padding-top: 5%;
+    padding-top: 5rem;
     padding-bottom: 5%;
-}
-
-.about-section h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-    text-align: left;
-    margin-right: 20%;
 }
 
 .about-section p {
@@ -169,4 +162,29 @@ nav ul li a{
 img{
     text-align: center;
     margin-bottom: 5px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100rem;
+    margin-left: -5%;
+    padding: 2.5%;
+    padding-top: 0%;
+}
+
+blockquote {
+    max-width: 25rem;
+    margin: 10px;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+blockquote h3 {
+    margin-top: 0;
 }
