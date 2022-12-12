@@ -91,11 +91,12 @@ aside h1{
 
 .plugins {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     max-width: 100rem;
-    margin-left: -5%;
+    margin-left: -3.5%;
+    margin-right: 1.5%;
     padding: 2.5%;
     padding-top: 0%;
 }
@@ -166,11 +167,12 @@ img{
 
 .reviews{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     max-width: 100rem;
-    margin-left: -5%;
+    margin-left: -3%;
+    margin-right: 1.5%;
     padding: 2.5%;
     padding-top: 0%;
 }
