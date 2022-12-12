@@ -1,7 +1,22 @@
 
+:root{
+    --bg: #1F2833;
+    --text: white;
+    --heading: #DEF2F1;
+    --asideBg: #17252A;
+    --asideText: white;
+    --asideHeading: #3AAFA9;
+    --pluginHeading: #000303;
+    --pluginBg: rgb(197, 197, 197);
+    --pluginText: rgb(0, 0, 0);
+    --reviewBg: #465261;
+    --reviewText: white;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(189, 189, 189);
+    background-color: var(--bg);
+    color: var(--text);
     margin: 0;
     margin-left: 20rem;
 }
@@ -17,10 +32,11 @@ aside{
     margin-left: -20rem;
     float: left;
     overflow: hidden;
-    background-color: rgb(46, 46, 46);
-    color: rgb(155, 155, 155);
+    background-color: var(--asideBg);
+    color: var(--asideText);
     overflow-y: hidden;
     position: fixed;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 nav ul{
@@ -33,7 +49,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(155, 155, 155);
+    color: var(--asideText);
     margin-left: -4.5%;
     padding-bottom: 5%;
     font-weight: bold;
@@ -46,7 +62,10 @@ nav ul li a{
 
 .header h1 {
     font-size: 2rem;
-    color: white;
+}
+
+aside h1{
+    color: var(--asideHeading);
 }
 
 .contact-section {
@@ -68,6 +87,7 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 0%;
+    color: var(--heading);
 }
 
 aside h1{
@@ -83,7 +103,6 @@ aside h1{
 .about-section p {
     font-size: 1.2em;
     line-height: 1.5;
-    color: rgb(0, 0, 0);
     text-align: left;
     margin-right: 20%;
 }
@@ -107,7 +126,8 @@ aside h1{
     padding: 20px;
     margin: 20px;
     text-align: center;
-    background-color: white;
+    background-color: var(--pluginBg);
+    color: var(--pluginText);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
 }
@@ -115,6 +135,7 @@ aside h1{
 .plugin h3 {
     margin-top: 0;
     font-size: 1.5rem;
+    color: var(--pluginHeading);
 }
 
 .plugin p {
@@ -180,14 +201,11 @@ img{
 blockquote {
     max-width: 25rem;
     margin: 10px;
-    background-color: rgb(212, 212, 212);
+    background-color: var(--reviewBg);
+    color: var(--reviewText);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-}
-
-blockquote h3 {
-    margin-top: 0;
 }
