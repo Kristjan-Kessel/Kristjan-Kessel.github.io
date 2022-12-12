@@ -5,7 +5,7 @@
     --heading: #DEF2F1;
     --asideBg: #17252A;
     --asideText: white;
-    --asideHeading: #3AAFA9;
+    --asideHeading: #00fff2;
     --pluginHeading: #000303;
     --pluginBg: rgb(197, 197, 197);
     --pluginText: rgb(0, 0, 0);
@@ -128,7 +128,7 @@ aside h1{
     text-align: center;
     background-color: var(--pluginBg);
     color: var(--pluginText);
-    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
 }
 
