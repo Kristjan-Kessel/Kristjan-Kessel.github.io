@@ -23,11 +23,6 @@ aside{
     position: fixed;
 }
 
-aside h1{
-    font-size: 1.75rem;
-}
-
-
 nav ul{
     list-style: none;
 }
@@ -75,6 +70,11 @@ h1 {
     padding-bottom: 0%;
 }
 
+aside h1{
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
 .about-section {
     padding-top: 5rem;
     padding-bottom: 5%;
@@ -89,7 +89,7 @@ h1 {
 }
 
 
-.container {
+.plugins {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -100,7 +100,7 @@ h1 {
     padding-top: 0%;
 }
 
-.item {
+.plugin {
     width: 25rem;
     min-height: 18rem;
     padding: 20px;
@@ -111,18 +111,18 @@ h1 {
     transition: all 0.5s;
 }
 
-.item h3 {
+.plugin h3 {
     margin-top: 0;
     font-size: 1.5rem;
 }
 
-.item p {
+.plugin p {
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: left;
 }
 
-.item a {
+.plugin a {
     display: inline-block;
     padding: 10px 20px;
     color: white;
@@ -183,6 +183,7 @@ blockquote {
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 blockquote h3 {
