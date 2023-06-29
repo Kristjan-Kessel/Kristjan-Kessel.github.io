@@ -120,14 +120,6 @@ aside h1{
     padding-top: 0%;
 }
 
-.plugins > div:hover {
-    opacity: 1;
-}
-
-.plugins > div:not(:hover) {
-opacity: 0.8;
-}
-
 .plugin {
     width: 25rem;
     min-height: 18rem;
