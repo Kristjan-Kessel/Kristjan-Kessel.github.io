@@ -132,21 +132,21 @@ aside h1{
     transition: all 1s;
 }
 
-.project 
+.plugin 
 
-.project  h3 {
+.plugin h3 {
     margin-top: 0;
     font-size: 1.5rem;
     color: var(--pluginHeading);
 }
 
-.project  p {
+.plugin p {
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: left;
 }
 
-.project a {
+.plugin a {
     display: inline-block;
     padding: 10px 20px;
     color: white;
