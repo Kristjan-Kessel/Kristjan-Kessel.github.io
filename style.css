@@ -108,7 +108,7 @@ aside h1{
 }
 
 
-.projects {
+.plugins {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -120,7 +120,7 @@ aside h1{
     padding-top: 0%;
 }
 
-.project {
+.plugin {
     width: 25rem;
     min-height: 18rem;
     padding: 20px;
